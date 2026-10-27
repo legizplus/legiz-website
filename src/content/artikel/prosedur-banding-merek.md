@@ -2,7 +2,7 @@
 title: "Prosedur Banding Merek di Komisi Banding Merek Indonesia"
 date: 2026-10-27
 summary: "Panduan lengkap dan mudah dipahami mengenai prosedur banding merek — dari menerima surat penolakan DJKI hingga keputusan Komisi Banding Merek."
-cover: "/images/backgrounds/services-document.jpg"
+cover: "/images/artikel/sampul-banding-merek.jpg"
 ---
 
 Apabila permohonan pendaftaran merek Anda ditolak oleh Direktorat Jenderal Kekayaan Intelektual (DJKI), Anda masih memiliki hak hukum untuk mengajukan banding ke Komisi Banding Merek. Proses ini memberikan kesempatan kepada pemohon untuk mempertahankan permohonan mereknya berdasarkan argumen dan bukti yang kuat.

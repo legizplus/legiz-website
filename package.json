@@ -18,6 +18,7 @@
     "vite": "latest"
   },
   "devDependencies": {
+    "sharp": "^0.35.5",
     "vercel": "^65.4.0"
   }
 }
