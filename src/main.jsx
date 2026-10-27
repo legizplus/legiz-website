@@ -2,11 +2,13 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom';
 import { Building2, GraduationCap, Home, Mail, MessageCircle, ShieldCheck } from 'lucide-react';
+import { ArticlesPage, ArticlePage } from './articleSystem.jsx';
 import './styles.css';
 
 const navItems = [
   ['Tentang', '/tentang'],
   ['Layanan', '/layanan'],
+  ['Artikel', '/artikel'],
   ['Nilai', '/nilai'],
   ['Tim', '/tim'],
   ['Proses', '/proses'],
@@ -251,6 +253,8 @@ function Layout() {
             <Route path="/" element={<HomePage />} />
             <Route path="/tentang" element={<AboutPage />} />
             <Route path="/layanan" element={<ServicesPage />} />
+            <Route path="/artikel" element={<ArticlesPage />} />
+            <Route path="/artikel/:slug" element={<ArticlePage />} />
             <Route path="/nilai" element={<ValuesPage />} />
             <Route path="/tim" element={<TeamPage />} />
             <Route path="/proses" element={<ProcessPage />} />
