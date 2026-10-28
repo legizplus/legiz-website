@@ -47,9 +47,9 @@ const team = [
   { name: 'Antonius Agung Satyaning Tyas, S.H.', role: 'Core Team', initials: 'AS', photo: '' },
   { name: 'Hanif Yuda Kartika, S.H.', role: 'Core Team', initials: 'HY', photo: '' },
   { name: 'Nilam Amalia Fatiha, S.H.', role: 'Core Team', initials: 'NA', photo: '' },
-  { name: 'Norma Ifada, S.H.', role: 'Support Team', initials: 'NI', photo: '' },
-  { name: 'Hafiz Noor, S.H.', role: 'Support Team', initials: 'HN', photo: '' },
   { name: 'Tsalis Nurseta Rismawan, S.H.', role: 'Core Team', initials: 'TN', photo: '' },
+  { name: 'Hafiz Noor, S.H.', role: 'Support Team', initials: 'HN', photo: '' },
+  { name: 'Norma Ifada, S.H.', role: 'Support Team', initials: 'NI', photo: '' },
 ];
 
 const steps = [
