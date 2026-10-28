@@ -66,22 +66,6 @@ const sectionImages = {
   process: '/images/backgrounds/process-meeting.jpg',
 };
 
-function LegalIllustration() {
-  return (
-    <svg className="justice-illustration" viewBox="0 0 520 640" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustrasi timbangan hukum dan pilar klasik" role="img">
-      <path d="M260 46v535" stroke="rgba(255,255,255,.65)" strokeWidth="3" />
-      <path d="M150 132h220M206 578h108M178 610h164" stroke="rgba(135,235,224,.84)" strokeWidth="4" strokeLinecap="round" />
-      <path d="M260 84c-45 48-75 106-90 175-17 80-13 164 13 252h154c26-88 30-172 13-252-15-69-45-127-90-175Z" stroke="rgba(255,255,255,.46)" strokeWidth="2" />
-      <path d="M116 194h288" stroke="rgba(255,255,255,.72)" strokeWidth="4" strokeLinecap="round" />
-      <path d="M116 194 58 312h116L116 194ZM404 194l-58 118h116l-58-118Z" stroke="rgba(135,235,224,.82)" strokeWidth="4" strokeLinejoin="round" />
-      <path d="M60 312h112M348 312h112" stroke="rgba(255,255,255,.58)" strokeWidth="4" strokeLinecap="round" />
-      <path d="M184 580V350M222 580V330M260 580V306M298 580V330M336 580V350" stroke="rgba(255,255,255,.16)" strokeWidth="22" strokeLinecap="round" />
-      <circle cx="260" cy="84" r="20" stroke="rgba(135,235,224,.95)" strokeWidth="4" />
-      <path d="M164 250c34 18 66 18 96 0M260 250c34 18 66 18 96 0" stroke="rgba(255,255,255,.18)" strokeWidth="2" />
-    </svg>
-  );
-}
-
 function Header() {
   return (
     <header className="header">
@@ -119,9 +103,8 @@ function Hero() {
           <div><strong>ID</strong><span>Layanan digital seluruh Indonesia</span></div>
         </div>
       </div>
-      <aside className="hero-art" aria-label="Legal illustration panel">
+      <aside className="hero-art" aria-label="Foto panel layanan hukum">
         <div className="art-card"><ShieldCheck size={19}/><span>Compliance-first advisory</span></div>
-        <LegalIllustration />
         <div className="hero-wordmark">LEGIZ.ID</div>
       </aside>
     </section>

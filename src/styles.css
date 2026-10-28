@@ -152,9 +152,25 @@ h1 em { color: var(--teal-soft); }
 .proof-grid div { padding: 24px; background: rgba(255, 255, 255, .08); backdrop-filter: blur(10px); border-radius: var(--radius-sm); }
 .proof-grid strong { display: block; color: var(--teal-soft); font-family: var(--serif); font-size: 36px; font-weight: 500; letter-spacing: var(--tracking-serif); }
 .proof-grid span { display: block; margin-top: 4px; color: rgba(255, 255, 255, .7); font-family: var(--display); font-size: 12px; font-weight: 600; }
-.hero-art { position: relative; display: grid; place-items: center; min-height: 600px; overflow: hidden; padding: 56px; }
-.justice-illustration { width: min(430px, 90%); opacity: .86; filter: drop-shadow(0 26px 34px rgba(0, 0, 0, .24)); }
-.hero-wordmark { position: absolute; right: -36px; bottom: 38px; color: rgba(255, 255, 255, .055); font-family: var(--serif); font-size: clamp(82px, 10vw, 154px); font-style: italic; letter-spacing: -.045em; white-space: nowrap; }
+.hero-art {
+ position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 600px;
+  overflow: hidden;
+  padding: 56px;
+  background:
+    linear-gradient(200deg, rgba(6, 22, 49, .5) 0%, rgba(6, 22, 49, .12) 60%),
+    url('/images/backgrounds/process-meeting.jpg') center / cover no-repeat;
+}
+.hero-art::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(6, 22, 49, .12);
+}
+.hero-wordmark { position: absolute; right: -36px; bottom: 38px; z-index: 2; color: rgba(255, 255, 255, .07); font-family: var(--serif); font-size: clamp(82px, 10vw, 154px); font-style: italic; letter-spacing: -.045em; white-space: nowrap; }
 .art-card {
   position: absolute;
   z-index: 2;
