@@ -156,15 +156,13 @@ section { padding: var(--section-y) var(--section-x); }
 .proof-grid strong { display: block; color: var(--teal-soft); font-family: var(--serif); font-size: 36px; font-weight: 500; letter-spacing: var(--tracking-serif); }
 .proof-grid span { display: block; margin-top: 4px; color: rgba(255, 255, 255, .7); font-family: var(--display); font-size: 12px; font-weight: 600; }
 
-.eyebrow, .section-kicker { margin: 0; display: inline-flex; align-items: flex-start; gap: 14px; color: var(--teal-soft); font-family: var(--display); font-size: clamp(13px, 1.05vw, 15px); font-weight: 900; letter-spacing: .16em; line-height: 1.55; text-transform: uppercase; }
-.eyebrow::before, .section-kicker::before { content: ''; width: 34px; height: 2px; margin-top: .62em; border-radius: 2px; background: currentColor; }
+.eyebrow, .section-kicker { margin: 0; display: inline-flex; align-items: flex-start; color: var(--teal-soft); font-family: var(--display); font-size: clamp(13px, 1.05vw, 15px); font-weight: 900; letter-spacing: .16em; line-height: 1.55; text-transform: uppercase; }
 h1, h2, h3 { margin: 0; font-family: var(--serif); font-weight: 500; letter-spacing: var(--tracking-serif); }
 h1 em { color: var(--teal-soft); }
 
 /* ── Section header ───────────────────────────────────────────────────────── */
 .section-header { display: grid; grid-template-columns: minmax(220px, .44fr) minmax(0, 1fr); align-items: start; gap: clamp(48px, 6.4vw, 92px); margin-bottom: clamp(54px, 6.5vw, 80px); }
 .section-kicker { color: var(--teal); align-self: start; }
-.section-kicker::before { width: 42px; flex: 0 0 42px; }
 .section-header.light .section-kicker, .section-header.light h2 { color: white; }
 h2 { max-width: 15ch; color: var(--navy-900); font-size: clamp(36px, 4.5vw, 60px); line-height: 1.14; letter-spacing: -.014em; text-wrap: balance; }
 .section-header p { margin: 24px 0 0; color: var(--muted); max-width: 720px; font-size: 16.5px; line-height: 1.85; }
@@ -288,7 +286,6 @@ blockquote { margin: 34px 0 0; padding: 30px 34px; border-radius: var(--radius-m
 /* ── Contact ──────────────────────────────────────────────────────────────── */
 .contact { color: white; text-align: center; border-radius: var(--radius-lg); background: linear-gradient(rgba(7, 26, 66, .92), rgba(7, 26, 66, .95)), radial-gradient(circle at 80% 22%, rgba(32, 181, 166, .2), transparent 28rem), url('/images/backgrounds/contact-library.jpg') center / cover no-repeat; box-shadow: var(--shadow-soft); }
 .contact .eyebrow { display: block; width: 100%; justify-content: center; text-align: center; color: rgba(255, 255, 255, .8); letter-spacing: .24em; }
-.contact .eyebrow::before { content: none; display: none; }
 .contact h2 { color: white; max-width: 13.5ch; margin: 30px auto 0; line-height: 1.13; letter-spacing: -.014em; }
 .contact > p { max-width: 780px; margin: 32px auto 0; color: rgba(255, 255, 255, .74); line-height: 1.9; }
 .contact-grid { max-width: 760px; margin: 46px auto 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; text-align: left; }
@@ -388,7 +385,6 @@ footer { width: min(1220px, calc(100% - 34px)); margin: 40px auto 0; padding: 30
   .image-card figcaption, .section-photo figcaption { left: 22px; right: 22px; bottom: 22px; }
   .image-card figcaption strong, .section-photo figcaption strong { font-size: 24px; line-height: 1.18; }
   .section-kicker { font-size: 12px; letter-spacing: .13em; line-height: 1.55; }
-  .section-kicker::before { width: 34px; flex-basis: 34px; }
   .service-card, .summary-grid a, .value-grid article, .process-grid article, .contact-grid div { padding: 28px; }
   .service-card h3, .value-grid h3 { font-size: 27px; line-height: 1.2; }
   .value-grid span { font-size: clamp(38px, 13vw, 56px); }
