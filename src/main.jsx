@@ -44,11 +44,11 @@ const values = [
 ];
 
 const team = [
-  ['Antonius Agung Satyaning Tyas', 'Core Team', 'AS'],
-  ['Hanif Yuda Kartika', 'Core Team', 'HY'],
-  ['Nilam Amalia Fatiha', 'Core Team', 'NA'],
-  ['Norma Ifada', 'Support Team', 'NI'],
-  ['Hafiz Noor', 'Support Team', 'HN'],
+  { name: 'Antonius Agung Satyaning Tyas', role: 'Core Team', initials: 'AS', photo: '' },
+  { name: 'Hanif Yuda Kartika', role: 'Core Team', initials: 'HY', photo: '' },
+  { name: 'Nilam Amalia Fatiha', role: 'Core Team', initials: 'NA', photo: '' },
+  { name: 'Norma Ifada', role: 'Support Team', initials: 'NI', photo: '' },
+  { name: 'Hafiz Noor', role: 'Support Team', initials: 'HN', photo: '' },
 ];
 
 const steps = [
@@ -184,7 +184,13 @@ function TeamPage() {
   return (
     <section className="team page-section">
       <SectionHeader kicker="Our Integrity Team" title="A structured team committed to ethics, confidentiality, and service quality." />
-      <div className="team-strip">{team.map(([name, role, initials]) => <article key={name} className="person-card" data-initials={initials}><h3>{name}</h3><p>{role}</p></article>)}</div>
+      <div className="team-strip">{team.map((m) => (
+        <article key={m.name} className={`person-card ${m.photo ? 'has-photo' : ''}`} data-initials={m.initials}>
+          {m.photo && <img className="person-photo" src={m.photo} alt={m.name} loading="lazy" />}
+          <h3>{m.name}</h3>
+          <p>{m.role}</p>
+        </article>
+      ))}</div>
       <div className="editorial-title">our integrity team</div>
     </section>
   );
