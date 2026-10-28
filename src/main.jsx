@@ -88,14 +88,12 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <div>
-          <p className="eyebrow">Integrated Legal Partner</p>
-          <h1>Adding Value Through <em>Law</em>, Strategy, and Knowledge</h1>
-          <p className="hero-lead">PT Legal Izin Plus Indonesia mendampingi bisnis, aset properti, serta kebutuhan riset hukum melalui layanan yang terintegrasi, cermat, dan berorientasi pada kepastian hukum.</p>
-          <div className="hero-actions">
-            <a className="button primary" href="https://wa.me/6285156316951"><MessageCircle size={17} /> Konsultasi Sekarang</a>
-            <Link className="button secondary" to="/layanan">Lihat Layanan</Link>
-          </div>
+        <p className="eyebrow">Integrated Legal Partner</p>
+        <h1>Adding Value Through <em>Law</em>, Strategy, and Knowledge</h1>
+        <p className="hero-lead">PT Legal Izin Plus Indonesia mendampingi bisnis, aset properti, serta kebutuhan riset hukum melalui layanan yang terintegrasi, cermat, dan berorientasi pada kepastian hukum.</p>
+        <div className="hero-actions">
+          <a className="button primary" href="https://wa.me/6285156316951"><MessageCircle size={17} /> Konsultasi Sekarang</a>
+          <Link className="button secondary" to="/layanan">Lihat Layanan</Link>
         </div>
         <div className="proof-grid" aria-label="Ringkasan perusahaan">
           <div><strong>2025</strong><span>Berdiri di Yogyakarta</span></div>
@@ -103,10 +101,6 @@ function Hero() {
           <div><strong>ID</strong><span>Layanan digital seluruh Indonesia</span></div>
         </div>
       </div>
-      <aside className="hero-art" aria-label="Foto panel layanan hukum">
-        <div className="art-card"><ShieldCheck size={19}/><span>Compliance-first advisory</span></div>
-        <div className="hero-wordmark">LEGIZ.ID</div>
-      </aside>
     </section>
   );
 }
@@ -123,6 +117,10 @@ function HomePage() {
         <SectionHeader kicker="LEGIZ.ID" title="Mitra hukum terintegrasi untuk kebutuhan legal, properti, dan riset.">
           Website ini kini dipisahkan menjadi beberapa halaman agar informasi lebih mudah dibaca dan navigasi lebih jelas.
         </SectionHeader>
+        <figure className="section-photo clean-caption home-photo">
+          <img src={sectionImages.process} alt="Diskusi kerja profesional dalam proses pendampingan hukum" />
+          <figcaption><strong>Setiap tahapan didampingi dengan pendekatan yang cermat dan terukur.</strong></figcaption>
+        </figure>
         <div className="summary-grid">
           <Link to="/tentang"><span>01</span><strong>Tentang Kami</strong><small>Profil dan pendekatan LEGIZ.ID.</small></Link>
           <Link to="/layanan"><span>02</span><strong>Layanan</strong><small>Corporate, property, research & education.</small></Link>
