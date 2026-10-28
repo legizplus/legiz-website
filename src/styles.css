@@ -210,7 +210,9 @@ blockquote { margin: 34px 0 0; padding: 30px 34px; border-radius: var(--radius-m
   min-height: 240px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
+  text-align: center;
   padding: 36px;
   border-radius: var(--radius-lg);
   background: var(--surface);
