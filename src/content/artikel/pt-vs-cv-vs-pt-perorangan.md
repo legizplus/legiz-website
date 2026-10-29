@@ -1,11 +1,11 @@
 ---
 title: "PT vs CV vs PT Perorangan: Mana yang Tepat untuk Usaha Anda?"
 date: 2026-10-29
-summary: "Memilih bentuk badan usaha adalah keputusan penting. Bandingkan PT, CV, dan PT Perorangan dari sisi modal, tanggung jawab hukum, dan prosedur — agar sesuai kebutuhan usaha Anda."
+summary: "Memilih bentuk badan usaha adalah keputusan penting. Bandingkan PT, CV, dan PT Perorangan dari sisi modal, tanggung jawab hukum, dan prosedur: agar sesuai kebutuhan usaha Anda."
 cover: "/images/artikel/sampul-badan-usaha.jpg"
 ---
 
-Saat memulai usaha, salah satu keputusan pertama yang harus dibuat adalah memilih bentuk badan usaha. Pilihan yang paling umum di Indonesia adalah PT, CV, dan — sejak hadirnya Undang-Undang Cipta Kerja — PT Perorangan. Masing-masing memiliki karakteristik, kelebihan, dan kekurangan yang berbeda.
+Saat memulai usaha, salah satu keputusan pertama yang harus dibuat adalah memilih bentuk badan usaha. Pilihan yang paling umum di Indonesia adalah PT, CV, dan (sejak hadirnya Undang-Undang Cipta Kerja) PT Perorangan. Masing-masing memiliki karakteristik, kelebihan, dan kekurangan yang berbeda.
 
 ## PT (Perseroan Terbatas)
 

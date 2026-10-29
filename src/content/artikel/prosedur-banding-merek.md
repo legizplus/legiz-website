@@ -1,7 +1,7 @@
 ---
 title: "Prosedur Banding Merek di Komisi Banding Merek Indonesia"
 date: 2026-10-27
-summary: "Panduan lengkap dan mudah dipahami mengenai prosedur banding merek — dari menerima surat penolakan DJKI hingga keputusan Komisi Banding Merek."
+summary: "Panduan lengkap dan mudah dipahami mengenai prosedur banding merek: dari menerima surat penolakan DJKI hingga keputusan Komisi Banding Merek."
 cover: "/images/artikel/sampul-banding-merek.jpg"
 ---
 
@@ -52,4 +52,4 @@ Komisi akan memutuskan apakah menerima atau menolak banding. Jika diterima, maka
 - Sertakan bukti penggunaan dan ketokohan merek
 - Gunakan jasa konsultan atau pengacara kekayaan intelektual
 
-> Catatan: Artikel ini bersifat informatif dan edukatif, bukan pengganti nasihat hukum untuk kasus tertentu. Ketentuan dan tenggat waktu dapat berubah sesuai peraturan yang berlaku — selalu verifikasi pada sumber resmi sebelum mengambil tindakan.
+> Catatan: Artikel ini bersifat informatif dan edukatif, bukan pengganti nasihat hukum untuk kasus tertentu. Ketentuan dan tenggat waktu dapat berubah sesuai peraturan yang berlaku: selalu verifikasi pada sumber resmi sebelum mengambil tindakan.

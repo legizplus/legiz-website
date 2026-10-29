@@ -9,14 +9,14 @@ Ketika perusahaan ingin meluncurkan produk baru, berekspansi, atau bekerja sama 
 
 ## Apa itu riset hukum?
 
-Riset hukum adalah proses mencari, memahami, dan menganalisis informasi hukum — seperti peraturan perundang-undangan, putusan pengadilan, dan praktik yang berlaku — untuk menjawab pertanyaan atau memecahkan masalah tertentu. Riset ini menjadi dasar dari hampir semua pekerjaan hukum, mulai dari menyusun kontrak hingga menilai kepatuhan.
+Riset hukum adalah proses mencari, memahami, dan menganalisis informasi hukum, seperti peraturan perundang-undangan, putusan pengadilan, dan praktik yang berlaku, untuk menjawab pertanyaan atau memecahkan masalah tertentu. Riset ini menjadi dasar dari hampir semua pekerjaan hukum, mulai dari menyusun kontrak hingga menilai kepatuhan.
 
 ## Mengapa penting untuk bisnis?
 
-- **Mengidentifikasi risiko sejak awal** — sebelum berkomitmen, Anda bisa tahu batasan dan kewajiban hukum.
-- **Memastikan kepatuhan** — menghindari pelanggaran regulasi yang bisa berujung sanksi.
-- **Mendukung negosiasi** — pemahaman hukum yang kuat memberi posisi tawar yang lebih baik.
-- **Membangun kepastian** — keputusan yang dilandasi kajian hukum lebih terarah dan defensibel.
+- **Mengidentifikasi risiko sejak awal**: sebelum berkomitmen, Anda bisa tahu batasan dan kewajiban hukum.
+- **Memastikan kepatuhan**: menghindari pelanggaran regulasi yang bisa berujung sanksi.
+- **Mendukung negosiasi**: pemahaman hukum yang kuat memberi posisi tawar yang lebih baik.
+- **Membangun kepastian**: keputusan yang dilandasi kajian hukum lebih terarah dan defensibel.
 
 ## Kapan bisnis membutuhkan riset hukum?
 

@@ -9,11 +9,11 @@ Dalam dunia hukum bisnis, dua istilah yang sering muncul adalah legal opinion da
 
 ## Apa itu Legal Opinion?
 
-Legal opinion adalah pendapat hukum tertulis yang diberikan oleh advokat atau konsultan hukum atas suatu masalah hukum tertentu. Biasanya berisi analisis, penerapan hukum pada fakta yang ada, serta kesimpulan — misalnya apakah suatu transaksi sah menurut hukum atau apakah perusahaan berhak melakukan tindakan tertentu. Legal opinion sering dibutuhkan dalam transaksi besar, seperti merger, akuisisi, atau kerja sama dengan pihak ketiga, karena memberikan kepastian hukum bagi para pihak.
+Legal opinion adalah pendapat hukum tertulis yang diberikan oleh advokat atau konsultan hukum atas suatu masalah hukum tertentu. Biasanya berisi analisis, penerapan hukum pada fakta yang ada, serta kesimpulan: misalnya apakah suatu transaksi sah menurut hukum atau apakah perusahaan berhak melakukan tindakan tertentu. Legal opinion sering dibutuhkan dalam transaksi besar, seperti merger, akuisisi, atau kerja sama dengan pihak ketiga, karena memberikan kepastian hukum bagi para pihak.
 
 ## Apa itu Legal Memorandum?
 
-Legal memorandum adalah nota hukum yang bersifat lebih eksploratif. Isinya berupa analisis atas suatu isu hukum — sering kali untuk pertimbangan internal perusahaan — tanpa harus berakhir pada kesimpulan final. Legal memorandum berguna untuk memahami suatu peraturan baru, menilai risiko hukum dari sebuah rencana, atau menyiapkan strategi sebelum mengambil keputusan.
+Legal memorandum adalah nota hukum yang bersifat lebih eksploratif. Isinya berupa analisis atas suatu isu hukum, sering kali untuk pertimbangan internal perusahaan, tanpa harus berakhir pada kesimpulan final. Legal memorandum berguna untuk memahami suatu peraturan baru, menilai risiko hukum dari sebuah rencana, atau menyiapkan strategi sebelum mengambil keputusan.
 
 ## Perbedaan utama
 
