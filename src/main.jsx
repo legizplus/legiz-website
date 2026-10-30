@@ -1,7 +1,8 @@
 import React from 'react';
+import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom';
-import { Building2, GraduationCap, Home, Mail, MessageCircle, ShieldCheck } from 'lucide-react';
+import { Building2, GraduationCap, Home, Mail, Menu, MessageCircle, ShieldCheck, X } from 'lucide-react';
 import { ArticlesPage, ArticlePage } from './articleSystem.jsx';
 import './styles.css';
 
@@ -68,9 +69,10 @@ const sectionImages = {
 };
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className="header">
-      <Link className="brand" to="/" aria-label="LEGIZ.ID home">
+      <Link className="brand" to="/" aria-label="LEGIZ.ID home" onClick={() => setMenuOpen(false)}>
         <img src="/images/logo/legiz-logo.png" alt="LEGIZ.ID" />
       </Link>
       <nav className="desktop-nav" aria-label="Navigasi utama">
@@ -80,7 +82,24 @@ function Header() {
       </nav>
       <div className="header-actions">
         <a className="pill-link" href="https://wa.me/6285156316951">WhatsApp</a>
+        <button
+          type="button"
+          className="menu-toggle"
+          aria-label={menuOpen ? 'Tutup menu' : 'Buka menu'}
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen(v => !v)}
+        >
+          {menuOpen ? <X size={22} /> : <Menu size={22} />}
+        </button>
       </div>
+      {menuOpen && (
+        <nav className="mobile-nav" aria-label="Navigasi seluler">
+          {navItems.map(([label, path]) => (
+            <NavLink key={path} to={path} onClick={() => setMenuOpen(false)}>{label}</NavLink>
+          ))}
+          <a className="mobile-wa" href="https://wa.me/6285156316951">WhatsApp</a>
+        </nav>
+      )}
     </header>
   );
 }
